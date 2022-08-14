@@ -30,6 +30,7 @@ Hello, my name is Arthur. Why did I decide to take part in the project? Because 
 **English_xpath**= "//*[text()= "English"]"
 **English_xpath**= "//*[@role= "button" and text()= "English"]"
 **English_xpath**= "//*[@role= "button"]"
+<<<<<<< HEAD
 
 <h3>Polski_xpath</h3>
 **Polski_xpath**= "//*[@role= "button" and text()= "Polski"]"
