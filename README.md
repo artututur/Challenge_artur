@@ -10,14 +10,12 @@ Hello, my name is Arthur. Why did I decide to take part in the project? Because 
 Scouts_Panel_xpath= "//*[text()="Scouts Panel"]"
 
 Scouts_Panel_xpath= "//h5[contains(@class, "MuiTypography")]"
-
 Scouts_Panel_xpath= "//*[@id="__next"]/form/div/div[1]/h"
 
 <h3>Login_xpath</h3>
 Login_xpath= "//*[@id="login-label"]"
 
 Login_xpath= "//label[text()="Login"]"
-
 Login_xpath= "//*[@for= "login" and @id= "login-label"]"
 
 
@@ -25,7 +23,6 @@ Login_xpath= "//*[@for= "login" and @id= "login-label"]"
 Password_xpath= "//label[text()= "Password"]"
 
 Password_xpath= "//*[@for= "password" and @id= "password-label"]"
-
 Password_xpath= "//label[contains(@class, "MuiFormLabel") and @for= "password"]"
 
 
@@ -33,7 +30,6 @@ Password_xpath= "//label[contains(@class, "MuiFormLabel") and @for= "password"]"
 Remind_password_xpath= "//*[text()= "Remind password"]"
 
 Remind_password_xpath= "//a[contains(@class, "MuiTypography")]"
-
 Remind_password_xpath ="//*[@id="__next"]/form/div/div[1]/a"
 
 
@@ -41,7 +37,6 @@ Remind_password_xpath ="//*[@id="__next"]/form/div/div[1]/a"
 English_xpath= "//*[text()= "English"]"
 
 English_xpath= "//*[@role= "button" and text()= "English"]"
-
 English_xpath= "//*[@role= "button"]"
 
 
@@ -49,7 +44,6 @@ English_xpath= "//*[@role= "button"]"
 Polski_xpath= "//*[@role= "button" and text()= "Polski"]"
 
 Polski_xpath= "//*[contains(@class, "MuiSelect") and text()= "Polski"]"
-
 Polski_xpath= "//*[text()= "Polski"]"
 
 
@@ -57,6 +51,5 @@ Polski_xpath= "//*[text()= "Polski"]"
 Zaloguj_xpath= "//button[@type= "submit"]"
 
 Zaloguj_xpath= "//*[contains(@class, "MuiButtonBase")]"
-
 Zaloguj_xpath = "//button[@tabindex= "0"]"
 
