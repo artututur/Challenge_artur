@@ -25,7 +25,7 @@ Password_xpath= "//label[contains(@class, "MuiFormLabel") and @for= "password"]"
 
 Remind_password_xpath= "//*[text()= "Remind password"]"
 Remind_password_xpath= "//a[contains(@class, "MuiTypography")]"
-Remind_password_xpath" =//*[@id="__next"]/form/div/div[1]/a"
+Remind_password_xpath ="//*[@id="__next"]/form/div/div[1]/a"
 
 
 English_xpath= "//*[text()= "English"]"
