@@ -2,24 +2,18 @@ from pages.base_page import BasePage
 
 
 class Dashboard(BasePage):
-Scouts_Panel_xpath= "//*[text()='Scouts Panel']"
-Scouts_Panel_xpath= "//h5[contains(@class, 'MuiTypography')]"
-Scouts_Panel_xpath= "//*[@id='__next']/form/div/div[1]/h5"
-Login_xpath= "//*[@id='login-label']"
-Login_xpath= "//label[text()='Login']"
-Login_xpath= "//*[@for= 'login' and @id= 'login-label']"
-Password_xpath= "//label[text()= 'Password']"
-Password_xpath= "//*[@for= 'password' and @id= 'password-label']"
-Password_xpath= "//label[contains(@class, 'MuiFormLabel') and @for= 'password']"
-Remind_password_xpath= "//*[text()= 'Remind password']"
-Remind_password_xpath= "//a[contains(@class, 'MuiTypography')]"
-Remind_password_xpath ="//*[@id='__next']/form/div/div[1]/a"
-English_xpath= "//*[text()= 'English']"
-English_xpath= "//*[@role= 'button' and text()= 'English']"
-English_xpath= "//*[@role= 'button']"
-Polski_xpath= "//*[@role= 'button' and text()= 'Polski']"
-Polski_xpath= "//*[contains(@class, 'MuiSelect') and text()= 'Polski']"
-Polski_xpath= "//*[text()= 'Polski']"
-Zaloguj_xpath= "//button[@type= 'submit']"
-Zaloguj_xpath= "//*[contains(@class, 'MuiButtonBase')]"
-Zaloguj_xpath= "//button[@tabindex= '0']"
+    main_page_xpath = "// span[contains(@class , 'MuiTypography') and text()= 'Main page']"
+    players_xpath = "//*[@class= 'MuiListItemText-root jss29 jss31']"
+    polski_xpath = "//*[text() = 'Polski']"
+    sign_out_xpath = "//*[text() = 'Sign out']"
+    players_count_xpath = "//*[text()= 'Players count']"
+    matches_count_xpath = "//*[text()= 'Matches count']"
+    reports_count_xpath = "//*[text()= 'Reports count']"
+    events_count_xpath = "//*[text()= 'Events count']"
+    scouts_pane_xpath = "//h2[text()= 'Scouts Panel']"
+    shortcuts_xpath = "//span[text()= 'Add player']"
+    activity_xpath = "//*[@href='/en/players/62f2bce6159aa3d4fa18f4b2/edit']"
+
+
+
+
