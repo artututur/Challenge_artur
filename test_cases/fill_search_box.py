@@ -8,7 +8,7 @@ from pages.login_page import LoginPage
 from utils.settings import DRIVER_PATH, IMPLICITLY_WAIT
 
 
-class TestLoginPage(unittest.TestCase):
+class TestSearchBox(unittest.TestCase):
 
     @classmethod
     def setUp(self):
@@ -25,8 +25,8 @@ class TestLoginPage(unittest.TestCase):
         user_login.type_in_email('user03@getnada.com')
         user_login.type_in_password('Test-1234')
         user_login.click_on_the_sign_in_button()
-        dashboard_page = Dashboard(self.driver)
-        dashboard_page.title_of_page()
+        user_login.click_on_the_players()
+        user_login.type_in_search_box('Test Testowski')
         time.sleep(5)
 
     @classmethod
