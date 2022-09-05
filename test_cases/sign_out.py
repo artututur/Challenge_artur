@@ -25,6 +25,7 @@ class TestLoginPageSignOut(unittest.TestCase):
         user_login.type_in_email('user03@getnada.com')
         user_login.type_in_password('Test-1234')
         user_login.click_on_the_sign_in_button()
+        time.sleep(4)
         user_login.click_on_the_sign_out_button()
         time.sleep(5)
 

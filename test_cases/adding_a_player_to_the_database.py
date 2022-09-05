@@ -8,7 +8,7 @@ from pages.login_page import LoginPage
 from utils.settings import DRIVER_PATH, IMPLICITLY_WAIT
 
 
-class AddingAPlayerToTheDatabase(unittest.TestCase):
+class TestAddingAPlayerToTheDatabase(unittest.TestCase):
 
     @classmethod
     def setUp(self):
@@ -44,7 +44,7 @@ class AddingAPlayerToTheDatabase(unittest.TestCase):
         dashboard_page.opole_button()
         dashboard_page.achievements_fill("Mistrz swiata")
         dashboard_page.click_on_the_submit_button()
-        time.sleep(5)
+        time.sleep(3)
 
     @classmethod
     def tearDown(self):
